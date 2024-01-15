@@ -1,0 +1,186 @@
+/* font from google  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* shart style srt */
+
+/* shart style  end */
+
+/* header style srt */
+/* nav style srt */
+.nav {
+  padding: 40px 120px;
+}
+
+.nav-start {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-title {
+  color: #3a3a3a;
+
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.nav-list {
+  color: #3a3a3a;
+
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.nav-list ul {
+  display: flex;
+
+  gap: 20px;
+}
+.nav-list li {
+  display: flex;
+}
+.nav-list a {
+  text-decoration: none;
+}
+/* nav style end */
+
+/*  Header style start */
+
+.header-sec {
+  padding: 40px 120px;
+  display: flex;
+}
+.header-title {
+  color: #3a3a3a;
+
+  font-size: 3.3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px; /* 134.615% */
+}
+.header-descrition {
+  color: #3a3a3a;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.header-button {
+  border-radius: 41px;
+  background: #e02c6d;
+  color: #fff;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 10px 24px;
+  border: 0;
+}
+.h-img {
+  background-image: url(./images/Circle\ design.svg);
+}
+/*  Header style End */
+
+/* Main section one */
+.sopnser {
+  padding: 50px 165px;
+}
+.all-sponser {
+  display: flex;
+  justify-content: space-between;
+}
+/* Main section one */
+/* products style start */
+.products {
+  padding: 100px 180px;
+}
+.products-title {
+  text-align: center;
+  color: #3a3a3a;
+
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 70px; /* 250% */
+}
+.products-imgs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.cards {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  padding: 13px;
+}
+.products-name {
+  color: #18191f;
+
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 142.857% */
+  margin: 0;
+}
+.producks-prise {
+  color: rgba(0, 0, 0, 0.87);
+
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+  margin: 0;
+}
+.products-reting {
+  color: #5e6366;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px; /* 157.143% */
+  letter-spacing: 0.1px;
+}
+.cards p {
+  color: #787885;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 143%; /* 20.02px */
+  letter-spacing: 0.252px;
+}
+.las-mal {
+  /* display: flex; */
+  text-align: end;
+  margin-top: 50px;
+}
+.product-last {
+  color: rgba(224, 44, 109, 0.87);
+
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+/* products style start */
+
+/* code for mobole */
+@media screen and (max-width: 570px) {
+  .nav-start,
+  .nav-list ul,
+  .header-sec {
+    flex-direction: column;
+  }
+  .nav,
+  .header-sec {
+    padding: 20px;
+  }
+  .h-img {
+    width: 100%;
+  }
+}
