@@ -50,6 +50,7 @@
 .header-sec {
   padding: 40px 120px;
   display: flex;
+  justify-content: space-around;
 }
 .header-title {
   color: #3a3a3a;
@@ -167,20 +168,107 @@
   font-weight: 700;
   line-height: normal;
 }
-/* products style start */
+/* products style End */
 
+/* last section style srt */
+.section-last {
+  padding: 100px 165px;
+}
+.last-sec {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.last-title {
+  color: #0a0826;
+
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 157.895% */
+}
+.last-des {
+  color: #6c6c6c;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 175% */
+}
+.last-button {
+  display: inline-flex;
+  padding: 10px 24px;
+  align-items: flex-start;
+  gap: 8px;
+  background: #e02c6d;
+  border: 0;
+  color: #fff;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+/* last section style End */
+
+/* footer style start */
+.footerr {
+  background: #0a0826;
+}
+.footer-text {
+  text-align: center;
+  padding-top: 50px;
+}
+.footer-hh {
+  color: #fff;
+
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.footer-pp {
+  color: #d9dbe1;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+}
+.footer-img {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+/* footer style End */
 /* code for mobole */
 @media screen and (max-width: 570px) {
   .nav-start,
   .nav-list ul,
-  .header-sec {
+  .header-sec,
+  .all-sponser,
+  .last-sec {
     flex-direction: column;
   }
   .nav,
-  .header-sec {
+  .header-sec,
+  .sopnser,
+  .products,
+  .section-last {
     padding: 20px;
   }
   .h-img {
     width: 100%;
+  }
+  .all-sponser {
+    gap: 10px;
+    align-items: center;
+  }
+  .all-sponser img {
+    width: 50%;
+    height: 100%;
+  }
+  .products-imgs {
+    grid-template-columns: 1fr;
   }
 }
